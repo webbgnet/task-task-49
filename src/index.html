@@ -5,33 +5,27 @@
     <title>HTML, CSS and SASS Boilerplate</title>
     <meta
       name="description"
-      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-    />
+      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <style>
-        .input[name="ccname"]{color: #000;}
-        .input[name="cardnumber"]{color: #000;}
-        .input[name="cvc"]{color: #000;}
-        .input[name="cc-exp"]{color: #000;}
-    </style>
   </head>
   <body>
     <div class="main">    
-        <form>
+    
       <div class="emoji mb-6">💣🤯💥</div>
-<label for="ccname">ccname</label>
-      <input type="number" id="ccname" name="ccname" class="ccname" autocomplete="ccname" placeholder="ccname">
-      <label for="cardnumber">cardnumber</label>
-      <input type="number" id="cardnumber" name="cardnumber" class="cardnumber" autocomplete="cardnumber" placeholder="cardnumber">
-      <label for="cvc">cvc</label>
-      <input type="number" id="cvc" name="cvc" class="cvc" autocapitalize="cvc" placeholder="cvc">
-      <label for="cc-exp">cc-exp</label>
-      <input type="number" id="cc-exp" name="cc-exp" class="cc-exp" autocomplete="cc-exp" placeholder="cc-exp">
       <button class="button">Boom?</button>
-
-    </form>
+         
     </div>
+
+    <form>
+        <input type="text" name="ccname" autocomplete="ccname" placeholder="ccname">
+  
+        <input type="number" id="cardnumber" name="cardnumber" autocomplete="cardnumber" placeholder="cardnumber">
+  
+        <input type="number" id="cvc" name="cvc" autocomplete="cvc" placeholder="cvc">
+  
+        <input type="number" id="number"  name="cc-exp" autocomplete="cc-exp" >
+
+      </form>
 
   </body>
 </html>
